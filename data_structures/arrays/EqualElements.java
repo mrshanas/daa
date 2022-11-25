@@ -13,8 +13,7 @@ public class EqualElements {
             {10,20,30},
             // {10,20,30}
         }, arr2[][] = {
-            {10,20,30},
-            {50,40},
+            {50,40}, {10,20,30}
         };
 
         System.out.println(equals(arr1, arr2));

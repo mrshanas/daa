@@ -5,6 +5,7 @@ public class ArrayOps {
         int arr[] = {1,2,3,4,5};
         // insertItem(arr, 2, 9);
 
+
         System.out.println(deleteItem(arr, 2)[2]);
     }
 
