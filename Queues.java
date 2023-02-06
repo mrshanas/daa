@@ -56,9 +56,6 @@ class Queue {
             return 0;
         }
 
-        int temp = queue[front];
-        front++;
-
-        return temp;
+        return queue[front++];
     }
 }
