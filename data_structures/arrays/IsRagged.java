@@ -9,6 +9,8 @@ package data_structures.arrays;
 
 public class IsRagged {
     public static void main(String[] args) {
+        // int[][] numbers = new int[10][9];
+
         int ragged[][] = {
             {1,2,3,4},
             {1,2,3,4},
