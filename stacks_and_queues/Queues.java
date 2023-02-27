@@ -36,7 +36,7 @@ class Queue {
 
     int enqueue(int x){
         if(isFull()) {
-            System.out.println("stacks_and_queues.Queue is full");
+            System.out.println("Queue is full");
             return 0;
         }
 
@@ -54,7 +54,7 @@ class Queue {
 
     int dequeue(){
         if(isEmpty()){
-            System.out.println("The stacks_and_queues.Queue is empty");
+            System.out.println("The Queue is empty");
             return 0;
         }
 
